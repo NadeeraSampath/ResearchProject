@@ -26,6 +26,7 @@
   font-size: 1rem;
   color: #ddd;
   line-height: 1.6;
+  text-align: justify; /* 👈 Add this */
 }
 
 .image-placeholder {
@@ -40,6 +41,7 @@
   list-style-type: "➢ ";
   padding-left: 1rem;
   align-items: self-start;
+  text-align: justify; /* 👈 Add this */
 }
 
 @media (max-width: 768px) {
