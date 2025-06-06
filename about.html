@@ -1,77 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Research Project - B5G3</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="about.css" />
-  <link rel="stylesheet" href="contact.css" />
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <img src="Images/usjp-logo.png" alt="Logo" class="logo-img">
-      NT_B5_G03_SA</div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research Project - B5G3</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="Images/usjp-logo.png" alt="Logo" class="logo-img" />
+        NT_B5_G03_SA
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="timeline.html">Timeline</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<main class="about2-main">
-  <section class="intro-section fade-in">
-    <h1 class="section-title">Background</h1>
-    <div class="section-content">
-      <div class="image-placeholder" id="bg-image"></div>
+    <main class="about2-main">
+      <section class="intro-section fade-in">
+        <h1 class="section-title">Background</h1>
+        <div class="section-content">
+          <div class="image-placeholder" id="bg-image"></div>
+          <p>
+            Traditional enterprise network security struggles against evolving
+            cyber threats like polymorphic malware and zero-day exploits, as
+            existing tools are often reactive and require manual intervention.
+            Honeypots offer a proactive defense by luring attackers to decoy
+            systems, enabling observation of their techniques without risking
+            real assets.
+          </p>
+        </div>
+      </section>
+
+      <section class="objectives-section fade-in">
+        <h1 class="section-title">Objectives</h1>
+        <div class="section-content">
+          <div class="image-placeholder" id="objectives-image"></div>
+          <p>
+            This research proposes integrating honeypots with AI in a
+            virtualized network environment (using EVE-NG, real-world simulation
+            tools, and Kali Linux). This combined approach allows an AI agent to
+            learn from attacker behavior observed via honeypots and
+            automatically mitigate threats in real time, moving beyond the
+            limitations of passive monitoring.
+          </p>
+        </div>
+      </section>
+
+      <section class="steps-section fade-in">
+        <h1 class="section-title">Research Workflow</h1>
+        <div class="section-content">
+          <div class="image-placeholder" id="steps-image"></div>
+          <ul class="steps-list">
+            <li>
+              Design and implement a virtualized enterprise network with typical
+              corporate components (DMZ, servers, switches, routers, user
+              computers).
+            </li>
+            <li>
+              Deploy honeypots capable of capturing malicious behavior across
+              different network zones.
+            </li>
+            <li>
+              Simulate realistic attacks using Kali Linux and Parrot OS attack
+              engines.
+            </li>
+            <li>
+              Collect and label attack data using honeypot logs and analyze
+              attack behavior patterns.
+            </li>
+            <li>Train an AI agent to recognize these patterns.</li>
+            <li>
+              Develop an automated response engine that can isolate malicious
+              nodes, modify firewall rules, or raise alerts in real-time.
+            </li>
+            <li>
+              Evaluate the performance of the AI agent using standard security
+              metrics (accuracy, precision, false positives).
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© Research Project Group NT_B5_G03_SA 2025</p>
       <p>
-        Traditional enterprise network security struggles against evolving cyber threats like polymorphic malware and zero-day exploits, as existing tools are often reactive and require manual intervention. Honeypots offer a proactive defense by luring attackers to decoy systems, enabling observation of their techniques without risking real assets.
+        ICT Department, Faculty of Technology, University of Sri
+        Jayewardenepura, Sri Lanka.
       </p>
-    </div>
-  </section>
+    </footer>
 
-  <section class="objectives-section fade-in">
-    <h1 class="section-title">Objectives</h1>
-    <div class="section-content">
-      <div class="image-placeholder" id="objectives-image"></div>
-      <p>
-        This research proposes integrating honeypots with AI in a virtualized network environment (using EVE-NG, real-world simulation tools, and Kali Linux). This combined approach allows an AI agent to learn from attacker behavior observed via honeypots and automatically mitigate threats in real time, moving beyond the limitations of passive monitoring.
-      </p>
-    </div>
-  </section>
-
-  <section class="steps-section fade-in">
-    <h1 class="section-title">Research Workflow</h1>
-    <div class="section-content">
-      <div class="image-placeholder" id="steps-image"></div>
-      <ul class="steps-list">
-        <li>Design and implement a virtualized enterprise network with typical corporate components (DMZ, servers, switches, routers, user computers).</li>
-        <li>Deploy honeypots capable of capturing malicious behavior across different network zones.</li>
-        <li>Simulate realistic attacks using Kali Linux and Parrot OS attack engines.</li>
-        <li>Collect and label attack data using honeypot logs and analyze attack behavior patterns.</li>
-        <li>Train an AI agent to recognize these patterns.</li>
-        <li>Develop an automated response engine that can isolate malicious nodes, modify firewall rules, or raise alerts in real-time.</li>
-        <li>Evaluate the performance of the AI agent using standard security metrics (accuracy, precision, false positives).</li>
-      </ul>
-    </div>
-  </section>
-</main>
-
-
-
-  <footer>
-    <p>© Research Project Group NT_B5_G03_SA 2025 </p>
-    <p>ICT Department, Faculty of Technology, University of Sri Jayewardenepura, Sri Lanka.</p>
-  </footer>
-
-  <script src="about.js"></script>
-  <script src="contact.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="about.js"></script>
+    <script src="contact.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
