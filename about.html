@@ -1,108 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Research Project - B5G3</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="about.css" />
-    <link rel="stylesheet" href="contact.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="Images/usjp-logo.png" alt="Logo" class="logo-img" />
-        NT_B5_G03_SA
-      </div>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="features.html">Features</a></li>
-          <li><a href="#"></a></li>
-          <li><a href="timeline.html">Timeline</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Research Project - B5G3</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="Images/usjp-logo.png" alt="Logo" class="logo-img">
+      Faculty of Technology</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="demo.html"></a>Demo</li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="about2-main">
-      <section class="intro-section fade-in">
-        <h1 class="section-title">Background</h1>
-        <div class="section-content">
-          <div class="image-placeholder" id="bg-image"></div>
-          <p>
-            Traditional enterprise network security struggles against evolving
-            cyber threats like polymorphic malware and zero-day exploits, as
-            existing tools are often reactive and require manual intervention.
-            Honeypots offer a proactive defense by luring attackers to decoy
-            systems, enabling observation of their techniques without risking
-            real assets.
-          </p>
-        </div>
-      </section>
+<main class="about2-main">
+  
+  <section class="Title-section fade-in">
+    <h1 id="title-title">AI-Powered Honeypots</h1>
+    <p id="slogan">The Future of Enterprise Network Defense</p>
+    <image src="Images/honeypot-png-1.png" class="title-image"></image>
+  </section>
 
-      <section class="objectives-section fade-in">
-        <h1 class="section-title">Objectives</h1>
-        <div class="section-content">
-          <div class="image-placeholder" id="objectives-image"></div>
-          <p>
-            This research proposes integrating honeypots with AI in a
-            virtualized network environment (using EVE-NG, real-world simulation
-            tools, and Kali Linux). This combined approach allows an AI agent to
-            learn from attacker behavior observed via honeypots and
-            automatically mitigate threats in real time, moving beyond the
-            limitations of passive monitoring.
-          </p>
-        </div>
-      </section>
-
-      <section class="steps-section fade-in">
-        <h1 class="section-title">Research Workflow</h1>
-        <div class="section-content">
-          <div class="image-placeholder" id="steps-image"></div>
-          <ul class="steps-list">
-            <li>
-              Design and implement a virtualized enterprise network with typical
-              corporate components (DMZ, servers, switches, routers, user
-              computers).
-            </li>
-            <li>
-              Deploy honeypots capable of capturing malicious behavior across
-              different network zones.
-            </li>
-            <li>
-              Simulate realistic attacks using Kali Linux and Parrot OS attack
-              engines.
-            </li>
-            <li>
-              Collect and label attack data using honeypot logs and analyze
-              attack behavior patterns.
-            </li>
-            <li>Train an AI agent to recognize these patterns.</li>
-            <li>
-              Develop an automated response engine that can isolate malicious
-              nodes, modify firewall rules, or raise alerts in real-time.
-            </li>
-            <li>
-              Evaluate the performance of the AI agent using standard security
-              metrics (accuracy, precision, false positives).
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>© Research Project Group NT_B5_G03_SA 2025</p>
+  <section class="intro-section fade-in">
+    <h1 class="section-title">Background</h1>
+    <div class="section-content">
+      <!--div class="image-placeholder" id="bg-image"></div!-->
       <p>
-        ICT Department, Faculty of Technology, University of Sri
-        Jayewardenepura, Sri Lanka.
+        Traditional enterprise network security struggles against evolving cyber threats like polymorphic malware and zero-day exploits, as existing tools are often reactive and require manual intervention. Honeypots offer a proactive defense by luring attackers to decoy systems, enabling observation of their techniques without risking real assets.
       </p>
-    </footer>
+    </div>
+  </section>
 
-    <script src="about.js"></script>
-    <script src="contact.js"></script>
-    <script src="script.js"></script>
-  </body>
+  <section class="objectives-section fade-in">
+    <h1 class="section-title">Objectives</h1>
+    <div class="section-content">
+      <p>
+        This research proposes integrating honeypots with AI in a virtualized network environment (using EVE-NG, real-world simulation tools, and Kali Linux). This combined approach allows an AI agent to learn from attacker behavior observed via honeypots and automatically mitigate threats in real time, moving beyond the limitations of passive monitoring. Our study does not aim to analyze advanced persistent threats (APTs), encrypted traffic analysis, or enterprise-grade SIEM systems.
+      </p>
+    </div>
+  </section>
+
+  <section class="steps-section fade-in">
+    <h1 class="section-title">Research Workflow</h1>
+    <div class="section-content">
+      <ul class="steps-list">
+        <li>Design and implement a virtualized network with typical corporate components (DMZ, servers, switches, routers, user computers).</li>
+        <li>Deploy honeypots capable of capturing malicious behavior across different network zones.</li>
+        <li>Simulate realistic attacks using Kali Linux and Parrot OS attack engines.</li>
+        <li>Collect and label attack data using honeypot logs and analyze attack behavior patterns.</li>
+        <li>Train an AI agent to recognize these patterns.</li>
+        <li>Develop an automated response engine that can isolate malicious nodes, modify firewall rules, or raise alerts in real-time.</li>
+        <li>Evaluate the performance of the AI agent using standard security metrics (accuracy, precision, false positives).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="objectives-section fade-in">
+    <h1 class="section-title">How It Works</h1>
+    <div class="section-content" id="how-work-content">
+            <img src="Images/Untitled3.png" id="flow-diagram">
+      <p>
+        Our system is built on a realistic, virtual enterprise network architecture designed to mimic the infrastructure of a small-to-medium business. This includes segmented zones such as an internal LAN for simulated employee systems, a DMZ hosting public-facing services, dedicated attacker zones running Kali and Parrot OS, and a centralized firewall for traffic control. Within this environment, we deployed two key honeypots: Cowrie, which emulates SSH/Telnet services and captures brute-force login attempts and shell commands, and Dionaea, which listens for malware uploads and exploitation attempts on vulnerable ports. All logged activity from these honeypots is funneled into the ELK Stack (Elasticsearch, Logstash, Kibana), enabling centralized, real-time visibility into attack behaviors.
+      </p>
+      <p>
+        The core intelligence of the system is the AI engine, which is trained on real honeypot logs to identify malicious sessions based on behavioral features like login frequency, command complexity, and session duration. This forms a closed-loop security system that functions autonomously: it detects incoming threats through honeypot interactions, decides the severity using AI classification, takes action by instantly blocking attackers via dynamic firewall rules, and continues to learn from each event to improve its accuracy over time. This loop transforms traditional reactive security into a proactive, self-defending mechanism — operating faster and smarter than manual intervention.
+      </p>
+    </div>
+  </section>
+
+  <section class="Tools-section fade-in">
+    <h1 class="section-title">Tools and Platforms Used</h1>
+    <div class="section-content" id="tools-section">
+      <div>
+        <div class="custom-table-container">
+          <table class="custom-table">
+            <thead>
+              <tr>
+                <th>Tools/Platforms</th>
+                <th>Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>EVE-NG</td>
+                <td>Virtualization platform for the network lab</td>
+              </tr>
+              <tr>
+                <td>Cowrie</td>
+                <td>Open-source low interaction SSH/Telnet honeypot</td>
+              </tr>
+              <tr>
+                <td>Python (Scikit-learn, TensorFlow)</td>
+                <td>Implement AI</td>
+              </tr>
+              <tr>
+                <td>Kali / Parrot OS</td>
+                <td>Pre-installed penetration testing tools</td>
+              </tr>
+              <tr>
+                <td>Nmap, Metasploit, Hydra</td>
+                <td>Attack simulations tools</td>
+              </tr>
+              <tr>
+                <td>Dionaea</td>
+                <td>Malware collector / HTTP, SMB exploitation honeypot</td>
+              </tr>
+              <tr>
+                <td>ELK Stack</td>
+                <td>Centralized, scalable log management with GUI</td>
+              </tr>
+              <tr>
+                <td>iptables</td>
+                <td>Scriptable and easy to manipulate by AI agent</td>
+              </tr>
+              <tr>
+                <td>Snort, custom scripts</td>
+                <td>Real-time response</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="objectives-section fade-in">
+    <h1 class="section-title">Real Attacks Simulated</h1>
+    <div class="section-content" id="attack-list">
+      <p>
+        🟡SSH brute-force&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🟡Malware uploads&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🟡SQL injection&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🟡Reverse shell execution &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🟡DoS attempts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </p>
+    </div>
+  </section>
+  
+  <section class="objectives-section fade-in">
+    <h1 class="section-title">Results</h1>
+    <div class="section-content">
+      <p>
+        The results of our research demonstrate the effectiveness of combining honeypots with AI to create an autonomous cybersecurity system. Our AI model, trained using behavioral data from Cowrie and Dionaea honeypots, achieved over 90% accuracy in classifying malicious sessions. Compared to traditional signature-based IDS like Snort, our system detected a wider range of threats, including stealthy attacks such as reverse shells and low-frequency probing. The average response time for automated threat mitigation was just 5.3 seconds, significantly faster than manual analysis. This rapid detection and response reduced potential damage and prevented lateral movement within the network. Even in complex, multi-stage attack simulations, our system accurately flagged malicious behavior and initiated appropriate defenses in real time. These results validate the power of AI-driven honeypot architectures for scalable, real-world threat defense in enterprise environments.
+      </p>
+      <ul class="result-list">
+        <li>
+          <span class="icon">✅</span>
+          <strong>Detection Accuracy:</strong><br>
+          AI Model (Random Forest) achieved over 90% accuracy.<br>
+          Outperformed traditional IDS tools (e.g., Snort) on stealthy attacks.
+        </li>
+        <li>
+          <span class="icon">⚡</span>
+          <strong>Response Speed:</strong><br>
+         Average AI-based threat response: ~5 seconds<br>
+          Human analyst reaction (manual): 30+ seconds
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="objectives-section fade-in">
+    <h1 class="section-title">Academic Contribution</h1>
+    <div class="section-content">
+      <p>
+        This research makes a meaningful academic contribution by bridging the gap between passive honeypot systems and intelligent, automated threat prevention. We designed and implemented a hybrid architecture that integrates behavioral honeypots with supervised machine learning, enabling real-time threat classification and autonomous response. Unlike traditional IDS solutions, our approach focuses on extracting and analyzing behavioral features—such as command entropy and login frequency—directly from attacker interactions. Additionally, we demonstrated how a fully virtualized lab using open-source tools like EVE-NG, Cowrie, and Dionaea can serve as a cost-effective yet powerful testbed for cybersecurity research. Our work offers a scalable, replicable framework for future studies in AI-driven network defense.
+      </p>
+    </div>
+  </section>
+
+  <section class="objectives-section fade-in">
+    <h1 class="section-title">Future Directions</h1>
+    <div class="section-content">
+      <p>
+        Future work will focus on enhancing the system&rsquo;s adaptability and scalability by incorporating deep learning models like LSTM to better analyze sequential attacker behavior over time. We also plan to implement online learning, allowing the AI to continuously retrain on new data without manual intervention. Expanding attack simulation to include encrypted and polymorphic threats will further improve robustness. Additionally, integrating threat intelligence feeds can enable more context-aware responses, while containerizing the system will support deployment in edge environments or resource-constrained networks. These advancements aim to evolve our prototype into a more resilient, real-time defense solution suitable for dynamic enterprise settings.
+      </p>
+      <ul class="future-list">
+        <li>
+          <span class="icon">🧠</span>
+          Deep learning models (e.g., LSTM) for sequential behavior detection.
+        </li>
+        <li>
+          <span class="icon">🔄</span>
+          Online learning from new attack data.
+        </li>
+        <li>
+          <span class="icon">🌐</span>
+          Integration with threat intelligence feeds.
+        </li>
+        <li>
+          <span class="icon">📦</span>
+          Edge deployment via containerization.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+</main>
+
+
+
+  <footer>
+    <p>© Research Project Group NT_B5_G03_SA 2025 </p>
+    <p>ICT Department, Faculty of Technology, University of Sri Jayewardenepura, Sri Lanka.</p>
+  </footer>
+
+  <script src="about.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>

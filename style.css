@@ -94,10 +94,10 @@ header {
 
 
 .hero-image {
-  #background-color: #ffc800;
-  #padding: 3rem;
-  #border-radius: 10px;
-  #box-shadow: 0 0 10px #ffc800a6;
+  background-color: #000000;
+  /*padding: 3rem;*/
+  /*border-radius: 10px;*/
+  /*box-shadow: 0 0 10px #ffc800a6;*/
 }
 
 .image-placeholder {
@@ -129,7 +129,7 @@ footer {
 
   .hero-image {
     flex: 1;
-    #max-width: 400px;
+    /*max-width: 400px;*/
   }
 }
 
