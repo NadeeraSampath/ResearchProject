@@ -39,6 +39,7 @@
 .steps-list {
   list-style-type: "➢ ";
   padding-left: 1rem;
+  align-items: self-start;
 }
 
 @media (max-width: 768px) {
@@ -62,18 +63,6 @@
   opacity: 1;
   transform: translateY(0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .logo {
   display: flex;
