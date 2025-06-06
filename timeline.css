@@ -28,9 +28,9 @@
 /* Timeline item boxes */
 .timeline-item {
   position: relative;
-  margin-bottom: 25px; /* Reduced from 60px */
+  margin-bottom: 10px; /* Reduced from 60px */
   width: 50%;
-  padding: 1rem;
+  padding: 0.5rem;
   z-index: 2;
 }
 
