@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Research Project - B5G3</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="demo.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="Images/usjp-logo.png" alt="Logo" class="logo-img">
+      Faculty of Technology</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="demo.html">Demo</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <main class="demo-main">
+      
+      <section class="about-title">
+      </section>
+
+      <section class="intro-section22 fade-in">
+        <div class="image-placeholder22" ID="diagram-image-placeholder">
+          <img src="Images/network-diagram.png" id="bg-image22" class="net-diagram-image"> 
+        </div>
+        <div class="Section-text" class="network-diagram fade-in">
+          <h1 class="section-title22">Network Architecture Diagram</h1>
+          <!--h2 class="section-title">Network Security Architecture</h2!-->
+          <p class="image-description">
+            This diagram illustrates layered network security architecture we used for our project. It demonstrates a typical secure network setup, emphasizing defense-in-depth by isolating public-facing services (DMZ) from sensitive internal assets, and using security layers (firewall/router) to control access and monitor for threats.
+          <br><br>
+            Penetration testers (using Parrot OS and Kali Linux) attempt to access or attack services in the DMZ. The firewall/router layer restricts and monitors any attempts to reach the internal network, which houses critical infrastructure.
+          </p>
+          <h3 class="network-subheading">Key Components and Flow:</h3>
+          <div class="network-flow">
+            <ul class="network-list">
+              <li><span class="icon">🎯</span><strong>Attack Simulation Layer:</strong> Parrot OS and Kali Linux are used for penetration testing and ethical hacking.</li>
+              <li><span class="icon">🌐</span><strong>DMZ (Demilitarized Zone):</strong> First network segment exposed to external traffic; acts as a buffer zone.</li>
+              <li><span class="icon">🛡️</span><strong>Firewall / Router Layer:</strong> Controls and filters traffic; enforces security policies between DMZ and internal network.</li>
+              <li><span class="icon">🏢</span><strong>Internal Network:</strong> Most protected segment containing sensitive assets like a database server, workstations, and a domain controller.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-section11 fade-in">
+        <div class="Section-text" class="network-diagram fade-in">
+          <h1 class="section-title11">Global Cyberattack Activity</h1>
+          <p class="image-description">
+            This image is a real-time cybersecurity dashboard from Deutsche Telekom that shows the scale and sources of cyberattacks worldwide. The dashboard displays a world map with attack flows, live alert counts over 36,000 in just 60 seconds and highlights which countries are most often attacking and being targeted. With graphs and tables summarizing alert types and country data, the picture helps users quickly understand the global volume and distribution of cyberattacks at any moment
+          </p>
+        </div>
+        <div class="image-placeholder22" ID="global-cyberattack-image-placeholder">
+          <img src="Images/world-map-count.png" id="bg-image11"> 
+        </div>
+      </section>
+
+
+      <section class="intro-section22 fade-in">
+        <div class="image-placeholder22" ID="attack-usernames-image-placeholder">
+          <img src="Images/usernames.png" id="bg-image22"> 
+        </div>
+        <div class="Section-text" class="network-diagram fade-in">
+          <h1 class="section-title22">SSH Attack Usernames and Passwords</h1>
+          <p class="image-description">
+            This Kibana dashboard visualizes data collected from a honeypot deployed for a research project, specifically tracking SSH login attempts. The image shows two prominent word clouds: one for usernames and one for passwords most frequently used by attackers. Common usernames like "root," "sa," and "admin" dominate the username cloud, but it also includes unique entries such as "nadeera" and "niro," reflecting the researchers' own failed login attempts during testing. The password cloud highlights weak and default passwords like "123456," "12345," "admin," and "(empty)," which attackers often try in brute-force attacks. Additional tables at the bottom summarize the top attacker networks, source IPs, and most frequent attack signatures. Overall, the dashboard provides a clear overview of attacker behavior and the prevalence of common credentials used in SSH attack attempts.
+        </div>
+      </section>
+
+
+      <section class="intro-section22 fade-in">
+        <div class="Section-text" class="network-diagram fade-in">
+          <h1 class="section-title22">Attack Trends on Common Ports Over Time</h1>
+          <p class="image-description">
+            This Kibana dashboard visualizes the number of attacks targeting common network ports on the honeypot system over the past 24 hours. The histogram tracks attack counts for ports such as 445 (used for Microsoft SMB), 22 (SSH), 135 (Microsoft RPC), 23 (Telnet), and 80 (HTTP). The data shows that port 445 consistently receives the highest volume of attacks, with frequent spikes reaching over 6,000 attempts in a short period. Port 22, associated with SSH, also experiences regular attack activity, while other ports like 135, 23, and 80 see lower but steady attack rates. This visualization helps illustrate how attackers frequently target well-known service ports, with clear patterns and surges in malicious traffic over time.
+        </div>
+            <div class="image-placeholder22" ID="attack-trends-image-placeholder">
+          <img src="Images/attack-ports.png" id="bg-image22"> 
+        </div>
+      </section>
+
+      
+    
+
+
+      <!--section class="objectives-section fade-in">
+        <h1 class="section-title">Objectives</h1>
+        <div class="section-content">
+          <div class="image-placeholder" id="objectives-image"></div>
+          <p>
+            This research proposes integrating honeypots with AI in a virtualized network environment (using EVE-NG, real-world simulation tools, and Kali Linux). This combined approach allows an AI agent to learn from attacker behavior observed via honeypots and automatically mitigate threats in real time, moving beyond the limitations of passive monitoring.
+          </p>
+        </div>
+      </section!-->
+
+
+
+      <section class="objectives-section fade-in">
+        <br><br>
+        <div class="section-content" id="demo-end">
+          <a href="contact.html" class="btn">GROUP MEMBERS</a>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+
+  <footer>
+    <p>© Research Project Group NT_B5_G03_SA 2025 </p>
+    <p>ICT Department, Faculty of Technology, University of Sri Jayewardenepura, Sri Lanka.</p>
+  </footer>
+
+  <script src="about.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

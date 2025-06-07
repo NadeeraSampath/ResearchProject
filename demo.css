@@ -1,0 +1,290 @@
+body {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  background-color: #000000;
+}
+
+.demo-main {
+  color: #fff;
+  background-color: #000000;
+  padding-top: 2rem;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+/*
+.section-title {
+  color: #ffc800;
+  font-size: 2.2rem;
+  margin-bottom: 1.0rem;
+  text-align: center;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #6d1717;
+}
+
+.section-content p {
+  flex: 1 1 60%;
+  font-size: 1rem;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.image-placeholder {
+  flex: 1 1 35%;
+  height: 200px;
+  background-color: #1a1a1a;
+  border: 2px dashed #ffc800;
+  border-radius: 10px;
+}
+*/
+
+
+
+.intro-section22 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.image-placeholder22 {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  width: 30%;
+}
+
+#bg-image22 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Section-text {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.section-title22 {
+  color: #ffc800;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .section-content {
+    flex-direction: column;
+  }
+
+  .image-placeholder {
+    width: 100%;
+  }
+}
+
+
+
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+.network-diagram {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/*
+.net-diagram-image {
+  background-color: #1D1E24;
+}*/
+
+.section-title {
+  font-size: 2rem;
+  color: #ffc800;
+  margin-bottom: 1.5rem;
+}
+
+.image-description {
+  max-width: 100%;
+  margin: 0 auto 2rem;
+  /*line-height: 1.7;*/
+  font-size: 1.2rem;
+  color: #ddd;
+  text-align: center;
+}
+
+.network-flow {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.network-subheading {
+  font-size: 1.5rem;
+  color: #ffc800;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.network-list {
+  list-style: none;
+  padding: 0;
+}
+
+.network-list li {
+  background-color: #1a1a1a;
+  border-left: 5px solid #ffc800;
+  margin-bottom: 1.2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  color: #eee;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: transform 0.3s ease;
+}
+
+.network-list li:hover {
+  transform: scale(1.02);
+}
+
+.network-list .icon {
+  font-size: 1.6rem;
+  color: #ffc800;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.diagram-placeholder {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 2px dashed #ffc800;
+  color: #ffc800;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Optional fade-in */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+.intro-section11 {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.image-placeholder11 {
+  width: 30%;
+  /*background-color: #615454; optional: only shows if image doesn't load */
+}
+
+#bg-image11 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.Section-text {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  box-sizing: border-box;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgb(0, 0, 0);
+  flex: 1;
+}
+
+.section-title11 {
+  color: #ffc800;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+#diagram-image-placeholder {
+  width: 40%; 
+}
+
+#global-cyberattack-image-placeholder {
+  width: 55%;
+}
+
+#attack-usernames-image-placeholder {
+  width: 40%;
+}
+
+#attack-trends-image-placeholder {
+  width: 55%;
+}
+
+
+
+#demo-end {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 2rem;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px #ffc800;
+}
