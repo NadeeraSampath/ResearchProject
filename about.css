@@ -1,7 +1,15 @@
+.wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+}
+
+
 .about2-main {
-  padding: 2rem 10rem;
   color: #fff;
   background-color: #000;
+  min-width: 480px;
+  max-width: 1250px;
 }
 
 .section-title {
@@ -95,32 +103,6 @@
 
 
 
-
-
-
-
-
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #ffc800;
-}
-
-.logo-img {
-  height: 30px;
-  width: auto;
-  margin-right: 10px;
-}
-
-
-
-
-
-
-
-
 #tools-section {
     justify-content: center;
     align-items: center;
@@ -200,6 +182,9 @@
 
 
 
+
+
+
 .result-list {
   list-style: none;
   padding: 0;
@@ -232,7 +217,6 @@
   flex-shrink: 0;
   margin-top: 2px;
 }
-
 
 
 .future-section {
@@ -283,4 +267,13 @@
 
 #how-work-content {
   justify-content: center;
+}
+
+#about-end {
+  justify-content: center;
+  justify-items: center;
+}
+
+.btn:hover {
+  box-shadow: 0 0 15px #ffc800;
 }
