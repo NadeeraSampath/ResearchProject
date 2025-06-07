@@ -21,6 +21,11 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  animation: fadeIn 1s ease-in;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
 }
 
 .card {
@@ -76,3 +81,5 @@ main {
   font-family: 'Times New Roman', Times, serif;
   margin-top: 1.5rem;
 }
+
+
