@@ -26,5 +26,6 @@ This project serves as a cost-effective and practical solution for small organiz
 
 It was created by us using html, css and javascript.
 
+<img width="1425" height="732" alt="{35A6C911-18FC-4CE3-B45C-C1AD378C8468}" src="https://github.com/user-attachments/assets/e697b26a-bb79-4971-9a0b-db47320571cd" />
 
 
